@@ -32,7 +32,11 @@ Python Playwright runner for a 2FA login, session reuse, offline locator resolut
 
    Or use the Makefile:
 
-   make run
+   make install-> install all the dependencies 
+   make run ->runs the script with headless=true(default value)
+   make run HEADLESS=false-> runs the script with headless=false
+   make clean-> removes previously ran results
+   
 
 ## Optional environment variables
 
