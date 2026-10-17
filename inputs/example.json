@@ -1,0 +1,16 @@
+{
+  "github": {
+    "username": "USERNAME",
+    "password": "PASSWORD",
+    "totpSecret": "SECRET",
+    "sessionStatePath": ".state/github-storage.json"
+  },
+  "form": {
+    "searchTerm": "invoice 2026",
+    "orderDate": "2026-10-17",
+    "region": "west",
+    "city": "Los Angeles",
+    "notes": "BraveBird take-home demo"
+  },
+  "outputDir": "runs/latest"
+}

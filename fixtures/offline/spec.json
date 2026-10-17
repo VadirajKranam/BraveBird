@@ -1,0 +1,9 @@
+{
+  "fields": [
+    { "key": "searchTerm", "label": "Search term", "kind": "textbox", "aliases": ["search", "query"] },
+    { "key": "orderDate", "label": "Order date", "kind": "textbox", "aliases": ["date"] },
+    { "key": "region", "label": "Region", "kind": "combobox", "aliases": ["state", "country"] },
+    { "key": "city", "label": "City", "kind": "combobox", "aliases": ["town"] },
+    { "key": "notes", "label": "Notes", "kind": "textarea", "aliases": ["comment", "details"] }
+  ]
+}

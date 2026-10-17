@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Offline request fixture</title>
+  <style>
+    body { font-family: system-ui, sans-serif; }
+    iframe { width: 100%; min-height: 540px; border: 0; }
+  </style>
+</head>
+<body>
+  <h1>Offline request fixture</h1>
+  <div class="wrapper">
+    <iframe title="request form" srcdoc='<!doctype html>
+      <html lang="en">
+      <head><meta charset="utf-8" /></head>
+      <body>
+        <section>
+          <div class="form-shell">
+            <form>
+              <div>
+                <label for="searchTerm">Search term</label>
+                <input id="searchTerm" name="searchTerm" type="text" />
+              </div>
+              <div>
+                <label for="orderDate">Order date</label>
+                <input id="orderDate" name="orderDate" type="date" />
+              </div>
+              <div>
+                <label for="region">Region</label>
+                <select id="region" name="region">
+                  <option value="west">West</option>
+                  <option value="north">North</option>
+                </select>
+              </div>
+              <div>
+                <label for="city">City</label>
+                <select id="city" name="city">
+                  <option value="Los Angeles">Los Angeles</option>
+                  <option value="Seattle">Seattle</option>
+                </select>
+              </div>
+              <div>
+                <label for="notes">Notes</label>
+                <textarea id="notes" name="notes"></textarea>
+              </div>
+            </form>
+          </div>
+        </section>
+      </body>
+      </html>'></iframe>
+  </div>
+</body>
+</html>
